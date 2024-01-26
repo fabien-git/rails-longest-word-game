@@ -1,0 +1,13 @@
+<h1>Score</h1>
+
+<div class="display">
+  <%if (@bool)%>
+  <h2>Votre Score</h2>
+  <p>Lettre de départ : <%=@dixlettres %></p>
+  <p>Votre mot : <%=@mots.join %></p>
+  <p>Votre temps de réponse: <%=@calculatedTime %></p>
+  <p>Votre score: <%=@score %></p>
+  <%else%>
+  <h2>mots n'existent pas</h2>
+  <%end%>
+</div>
